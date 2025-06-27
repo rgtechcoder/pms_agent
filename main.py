@@ -1,5 +1,6 @@
 from fastapi import FastAPI
-from model import Task, TaskCreate, TaskUpdate
+from model import Task
+from model import  TaskCreate, TaskUpdate
 from database import engine, init_db
 from sqlmodel import Session, select
 
